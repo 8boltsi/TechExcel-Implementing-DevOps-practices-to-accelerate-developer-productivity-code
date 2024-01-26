@@ -37,7 +37,9 @@ namespace RazorPagesTestSample
 
             host.Run();
         }
-
+        
+#comment test to work 3rd time
+    
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
