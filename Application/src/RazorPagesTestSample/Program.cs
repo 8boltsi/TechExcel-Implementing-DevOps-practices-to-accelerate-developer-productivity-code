@@ -38,7 +38,7 @@ namespace RazorPagesTestSample
             host.Run();
         }
         
-#comment test to work
+#comment test to work 2nd time
     
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
